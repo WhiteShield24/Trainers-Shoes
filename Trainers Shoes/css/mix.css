@@ -1,0 +1,21 @@
+a:focus,
+a:active {
+  color: #888888;
+  text-decoration: none;
+  outline: none;
+}
+.input {
+  background: #428bca;
+  border: 1px #c8c8c8 solid;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+.input:hover {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #2069a8;
+}
